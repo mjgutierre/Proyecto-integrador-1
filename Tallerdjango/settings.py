@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-
 from pathlib import Path
 import os
 
@@ -26,7 +25,7 @@ SECRET_KEY = 'django-insecure-krud5-8a+6@^e$qx2p&gz&x_dc5p@fpg*wig7p#7xfq8av*g$r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['34.68.76.128']
 
 
 # Application definition
